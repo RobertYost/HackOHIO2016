@@ -22,7 +22,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "HEYOOOO", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "HEYOOOOoOoOoO", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

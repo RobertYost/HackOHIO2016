@@ -19,14 +19,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DeepBreathing3"
-            android:label="@string/title_activity_deep_breathing3"
-            android:parentActivityName=".DeepBreathing1"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.robertyost.hackohio2016.DeepBreathing1" />
-        </activity>
+            android:name=".PositiveThinking1"
+            android:label="@string/title_activity_positive_thinking1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PositiveThinking2"
+            android:label="@string/title_activity_positive_thinking2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PositiveThinking3"
+            android:label="@string/title_activity_positive_thinking3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gratefulness"
+            android:label="@string/title_activity_gratefulness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gratefulness2"
+            android:label="@string/title_activity_gratefulness2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gratefulness3"
+            android:label="@string/title_activity_gratefulness3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

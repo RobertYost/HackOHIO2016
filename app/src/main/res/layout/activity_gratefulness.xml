@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.robertyost.hackohio2016.DeepBreathing3">
+    tools:context="com.example.robertyost.hackohio2016.Gratefulness">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_deep_breathing3" />
+    <include layout="@layout/content_gratefulness" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

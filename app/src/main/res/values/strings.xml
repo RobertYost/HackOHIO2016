@@ -3,4 +3,10 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_create_account">CreateAccountActivity</string>
     <string name="title_activity_deep_breathing3">DeepBreathing3</string>
+    <string name="title_activity_positive_thinking1">PositiveThinking1</string>
+    <string name="title_activity_positive_thinking2">PositiveThinking2</string>
+    <string name="title_activity_positive_thinking3">PositiveThinking3</string>
+    <string name="title_activity_gratefulness">Gratefulness</string>
+    <string name="title_activity_gratefulness2">Gratefulness2</string>
+    <string name="title_activity_gratefulness3">Gratefulness3</string>
 </resources>

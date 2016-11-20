@@ -1,5 +1,6 @@
 package com.example.robertyost.hackohio2016;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -7,12 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class DeepBreathing3 extends AppCompatActivity {
+public class PositiveThinking2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deep_breathing3);
+        setContentView(R.layout.activity_positive_thinking2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -24,7 +25,9 @@ public class DeepBreathing3 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+    public void onClick(View v) {
+        startActivity(new Intent(PositiveThinking2.this, PositiveThinking3.class));
     }
 
 }

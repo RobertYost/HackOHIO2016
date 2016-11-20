@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "971990613736",
+    "firebase_url": "https://hackohio2016-79627.firebaseio.com",
+    "project_id": "hackohio2016-79627",
+    "storage_bucket": "hackohio2016-79627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971990613736:android:2fd5e24a6aab6528",
+        "android_client_info": {
+          "package_name": "com.example.robertyost.hackohio2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971990613736-t8g1r2qkdq8sbmjqdt65ahgm3s3clbho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFGpusi8B--W4nVXLjwLwgfTqAxenOi5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

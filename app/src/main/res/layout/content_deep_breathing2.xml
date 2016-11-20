@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_deep_breathing2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.robertyost.hackohio2016.DeepBreathing2"
+    tools:showIn="@layout/activity_deep_breathing2"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:text="Breath in..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="Breath out..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView3"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+
+    <set android:shareInterpolator="false"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <scale
+            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+            android:fromXScale="1.0"
+            android:toXScale="1.5"
+            android:fromYScale="1.0"
+            android:toYScale="1.5"
+            android:fillAfter="false"
+            android:duration="1000" />
+        <scale1
+            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+            android:fromXScale="1.5"
+            android:toXScale="1.0"
+            android:fromYScale="1.5"
+            android:toYScale="1.0"
+            android:fillAfter="false"
+            android:duration="1000" />
+    </set>
+
+    <Button
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startExerciseBtn"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="17dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="Stop Exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/button3"
+        android:textSize="12sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="SwitchtoS3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ViewAnimator
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp" >
+
+        <ImageView
+            android:src = "@drawable/circle"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/circle"
+            android:layout_marginStart="51dp"
+            android:layout_marginBottom="34dp"
+            android:layout_above="@+id/circle"
+            android:layout_toEndOf="@+id/set" />
+    </ViewAnimator>
+</RelativeLayout>

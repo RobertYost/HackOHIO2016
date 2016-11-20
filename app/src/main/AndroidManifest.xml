@@ -19,9 +19,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateAccountActivity"
-            android:label="@string/title_activity_create_account"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".DeepBreathing3"
+            android:label="@string/title_activity_deep_breathing3"
+            android:parentActivityName=".DeepBreathing1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robertyost.hackohio2016.DeepBreathing1" />
+        </activity>
     </application>
 
 </manifest>

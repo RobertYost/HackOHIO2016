@@ -22,7 +22,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     public void onLoginBtnClick(View view) {
         //@Katrina -- change the second argument to what page you want to go to
-        Intent tempDeepBreathingIntent = new Intent(this, CreateAccountActivity.class);
+        Intent tempDeepBreathingIntent = new Intent(this, DeepBreathing1.class);
         startActivity(tempDeepBreathingIntent);
     }
 }
